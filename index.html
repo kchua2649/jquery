@@ -3,25 +3,44 @@
 <head>
 <meta charset="utf-8">
 <title>Jquery assignment</title>
-	
-<link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
-	
-<meta charset="utf-8">
+
   
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
-  $( function() {
+	  
+  	  $( function() {
     $( "#red" ).draggable();
   } );
+	  
+	  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+	  
   </script>
 	
 	<style>
 		h1{
 			font-family: 'Tangerine';
-			
+			font-size: 4em;
 		}
+		
+		h3{
+			font-family: 'Tangerine';
+			font-size: 3em;
+		}
+		
+		#accordion{
+			width:500px;
+		}
+		
+
+ 
 	</style>
+	
+	<link href="jquery-ui.ccs" rel="stylesheet" type="text/css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
 	
 </head>
 
@@ -31,62 +50,71 @@
 
   <h1 id="red">Chinese Street Food</h1>
 
+<div id="accordion">
 	
+		<h3>Cifantuan or Ci Faan (Glutinous rice balls)</h3>
 	<div>
-		<h2>Cifantuan or Ci Faan (Glutinous rice balls)</h2>
 		<p>
 			Rice balls filled with various flavorful local ingredients. The most common types are the savory kinds. These include aha cai (pickled vegetable), rousing (pork floss) and youtiao (long golden-brown strips of deep-fried dough). There are also the sweet variations, which consist of the same ingredients as the savory one but with added sugar as well as sesame.
 		</p>
-	</div>
+		</div>
 	
+	
+	
+		<h3>Baozi (Chinese Bread Buns)</h3>
 	<div>
-		<h2>Baozi (Chinese Bread Buns)</h2>
 		<p>
 			Dough buns often filled with juicy meat such as barbecued pork and/or vegetables, and steamed in steaming trays made of bamboo. Similar to Jiaozi, though they consist of a thicker dough, as well as a larger amount of filling.
 		</p>
 	</div>
 	
+	
+		<h3>Pai gu nian gao (Pork Chop with Rice Cakes)</h3>
 	<div>
-		<h2>Pai gu nian gao (Pork Chop with Rice Cakes)</h2>
 		<p>
 			Pork chop which is marinated and boiled which is then covered with thin rice flour and then fried.
 		</p>
 	</div>
 	
+	
+		<h3>Jianbing (Chinese Crepes)</h3>
 	<div>
-		<h2>Jianbing (Chinese Crepes)</h2>
 		<p>
 			A common food on the street eaten for breakfast. Basically found at every street corner, its main ingredients are wheat and grain flour then fried on a griddle with an egg. It's stuffed with scallions, lettuce, cilantro, and chili sauce.
 		</p>
 	</div>
 	
+	
+		<h3>Jiaozi (Chinese Dumplings)</h3>
 	<div>
-		<h2>Jiaozi (Chinese Dumplings)</h2>
 		<p>
 			Usually filled with veggies and/or meat, this tends to me a common street food aswell. They are shaped like ancient gold ingots, which were believed to bring you good luck. They are often shallow fried or deep-fried and eaten with a dip of soy-vinegar sauce for flavor. Also really popular on Chinese New Year.
 		</p>
 	</div>
 	
+	
+		<h3>Chuan’r (Chinese Kebabs)</h3>
 	<div>
-		<h2>Chuan’r (Chinese Kebabs)</h2>
 		<p>
 			Meat skewered just like usual, or even veggies and then seasoned with salt, dried chili flakes, and ground cumin.
 		</p>
 	</div>
 	
+	
+		<h3>Huo guo (Hotpot)</h3>
 	<div>
-		<h2>Huo guo (Hotpot)</h2>
 		<p>
 			A hotpot that was popularized in Sichuan and overtime grew with many variations. The most famous of all huo guo is the Chongqing ma la hotpot, which adds Sichuan pepper to the boiling meat broth.
 		</p>
 	</div>
 	
+	
+		<h3>Rou Jia Mo (Chinese Hamburger)</h3>
 	<div>
-		<h2>Rou Jia Mo (Chinese Hamburger)</h2>
 		<p>
 			Literally the Chinese version of the hamburger with the Chinese twist being thinner buns and flavored with meat gravy and chili paste and the meat is shredded rather than being a circular patty.
 		</p>
 	</div>
-	
+</div>	
 </body>
 </html>
